@@ -1,3 +1,7 @@
+html {
+	height: 100%;
+}
+
 body {
 	background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec13e2bc38df66aaaf8d88ff4607dfe1&auto=format&fit=crop&w=500&q=60);
 	background-size: cover;
@@ -6,29 +10,53 @@ body {
 	color: white;
 }
 
-html {
-	height: 100%;
+#home {
+  padding-top: 25%;
+  text-align: center;
 }
 
-#content {
+#about, #login {
 	text-align: center;
-	padding-top: 25%;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
+  padding-top: 5%;
+  margin: 0 auto;
 }
 
-#about {
-	text-align: center;
-	padding-top: 5%;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
+#signup {
+  text-align: center;
+  padding-top: 2%;
+  margin: 0 auto;
+}
+
+.form-control {
+  margin: 0 auto;
+  width: 450px;
+  min-width: 50%;
+  max-width: 90%;
+  color: black;
+}
+
+.form-control::placeholder {
+  color: rgba(0,0,0,0.7);
+  opacity: 1; /* Firefox */
+}
+
+#questionBox {
+  margin: 20px auto 20px auto;
+  width: 450px;
+  min-width: 50%;
+  max-width: 90%;
+  height: 100px;
+  color: black;
+  text-align: top;
+  display: center;
 }
 
 h1 {
 	font-weight: 700;
-	font-size: 5em;
+  font-size: 5em;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
 }
 
 p {
@@ -36,7 +64,10 @@ p {
 }
 
 hr {
-	width: 400px;
+  width: 400px;
+  max-width: 50%;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2)
 }
+
+
