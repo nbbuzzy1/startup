@@ -18,12 +18,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Purrfect Match</a>
+          <a class="navbar-brand" href="../index.html">Purrfect Match</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="about.html">About</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -36,17 +36,18 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div id="about">
-            <h1>Our Mission</h1>
-            <h3>Matching felines that need a home with worthy owners.</h3>
-            <p>
-                At Purrfect Match, we all come to work every day because we want to solve the biggest problem in feline adoptions. 
-                To often, felines are simply given to new owners without due consideration that they belong together.  That is why 30% of all
-                feline adoptions result in the owners returning the felines. With Purrfect Match, you create a unique and thorough profile
-                telling us about your background and your goals with your ideal feline companion.  We do the rest and provide you five matches
-                based on our proprietary patent-pending software.
-            </p>
-            <p>Stop wasting time with antiquated methods.  Let us find your <strong><em>Purrfect Match</em></strong>.</p>
+          <div id="login">
+            <form class="form-signin">
+              <h1>Sign in</h1>
+              <input type="text" id="loginUsername" class="form-control" placeholder="Username" required autofocus="">
+              <input type="password" id="loginPassword" class="form-control" placeholder="Password" required>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="btn btn-default btn-lg" type="submit"><i class="fas fa-paw"></i> Sign in</button>
+            </form>
           </div>
         </div>
       </div>
