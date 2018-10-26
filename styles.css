@@ -24,20 +24,20 @@ body {
 }
 
 #home {
-  padding-top: 25%;
+  padding-top: 200px;
   text-align: center;
 }
 
-#about, #login {
+#about, #contact, #login, #signup {
 	text-align: center;
-  padding-top: 5%;
+  padding-top: 50px;
   margin: 0 auto;
 }
 
-#signup {
-  text-align: center;
-  padding-top: 2%;
-  margin: 0 auto;
+#about {
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .form-control {
@@ -70,6 +70,12 @@ h1 {
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h3 {
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1); 
 }
 
 p {
